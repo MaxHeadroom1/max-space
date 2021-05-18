@@ -1,0 +1,147 @@
+@font-face {
+  font-family: nfblod;
+  src: url(Somar-Bold.otf);
+}
+@font-face {
+  font-family: nfmed;
+  src: url(Somar-Medium.otf);
+}
+body{
+  font-family: nfmed;
+}
+th{
+  font-family: nfblod;
+}
+td{
+  font-family: nfmed;
+  font-size: 25px;
+  box-sizing: unset;
+}
+tbody{
+  box-sizing: unset;
+}
+h1{
+  font-size: nfblod;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.centerline{
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  margin-top: 18%;
+  color: #fff;
+  height: 170px;
+}
+input{
+  font-family: nfblod;
+  font-weight: 700;
+  font-size: 20px;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  /* text-align: left; */
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+  /* box-sizing: unset; */
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+section{
+  margin: 50px;
+}
+
+.loginbuttom{
+  width: 50px;
+  height: 25px;
+}
+/* follow me template */
+.made-with-love {
+  /* margin-top: 40px; */
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+    font-family: nfblod;
+}
+.made-with-love i {
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+    font-family: nfblod;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+  font-family: nfblod;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+.name{
+  width: 300px;
+  box-sizing: unset;
+}
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 25px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
